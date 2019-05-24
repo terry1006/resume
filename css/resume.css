@@ -7,6 +7,7 @@ font-size:40px;
 font-weight: bold;
 color: white;
 margin-top:10px;
+margin:0px auto;
 }
 .icon{
 color: black;
@@ -16,8 +17,7 @@ letter-spacing:30px;
 padding-left:360px;
 text-align: left;
 list-style:none;
-letter-spacing:6px;
-line-height:24px;
+letter-spacing:4px;
 margin:10px;
 }
 .inf-t{
@@ -46,10 +46,12 @@ margin-top: 10px;
 padding: 50px 0;
 background-color: 	#FF7744;
 width: 950px;
+margin:0px auto;
 }
 .bd{
 border: 8px solid white;
 width:850px;
+margin:0px auto;
 }
 * {box-sizing: border-box;}
 .img-comp-container {
@@ -216,11 +218,11 @@ z-index: 1;
 }
 /* Place the container to the left */
 .left {
-left: 0;
+left:170px;
 }
 /* Place the container to the right */
 .right {
-left: 50%;
+left: 400px;
 }
 /* Add arrows to the left container (pointing right) */
 .left::before {
